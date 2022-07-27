@@ -22,12 +22,12 @@ def countdown(h, m, s):
         # Reduz o tempo total em um segundo
         total_seconds -= 1
  
-    print("Bzzzt! The countdown is at zero seconds!")
+    print('A contagem regressiva alcançou ZERO segundos!')
  
 # Entrada para hora, minuto e segundos no Timer
-h = input("Enter the time in hours: ")
-m = input("Enter the time in minutes: ")
-s = input("Enter the time in seconds: ")
+h = input('Entre com as horas: ')
+m = input('Entre com os minutos: ')
+s = input('Entre com os segundos: ')
 countdown(int(h), int(m), int(s))
 
 quit()
